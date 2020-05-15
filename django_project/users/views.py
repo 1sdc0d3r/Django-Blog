@@ -19,7 +19,7 @@ def register(request):
         form = UserRegisterForm()
     return render(request, 'users/register.html', {'form': form})
 
-# flag for authenticated users only
+# decorator for authenticated users only
 @login_required
 def profile(request):
     if request.method == 'POST':
