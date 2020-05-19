@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
+    "python.pythonPath": "/opt/anaconda3/bin/python",
     "[django-html]": {},
     "files.associations": {
         "*.html": "django-html"
