@@ -1,3 +1,4 @@
 web: gunicorn django_project.wsgi
 
 //process type: gunicorn(command for web process) django_project is package name w/ settings.py and .wsgi file
+//delete pipfile first to run from requirements.txt
